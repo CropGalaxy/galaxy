@@ -19,5 +19,8 @@
   "dependencies": {
     "@galaxyproject/galaxy-client": "^24.0.0",
     "cpy-cli": "^5.0.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^5.1.4"
   }
 }
