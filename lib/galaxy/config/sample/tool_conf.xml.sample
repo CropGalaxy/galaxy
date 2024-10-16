@@ -2,6 +2,7 @@
 <toolbox monitor="true">
   <section id="gemma_tools" name="GEMMA Tools">
       <tool file="gemma/add-pheno-to-fam/add_pheno_to_fam.xml" />
+      <tool file="gemma/compute-kinship-from-genotype/compute_kinship.xml" />
   </section>
   <section id="getext" name="Get Data">
     <tool file="data_source/upload.xml" />
@@ -134,6 +135,10 @@
     <tool file="phenotype_association/ldtools.xml" />
     <tool file="phenotype_association/master2pg.xml" />
   </section>
+  <section id="uniqprimer" name="Uniqprimer2">
+    <tool file="Uniqprimer/uniqprimer.xml"/>
+  </section>
+
   <!--
   <section id="interactivetools" name="Interactive tools">
     <tool file="interactive/interactivetool_askomics.xml" />
