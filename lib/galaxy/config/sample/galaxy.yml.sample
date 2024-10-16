@@ -750,7 +750,7 @@ galaxy:
   # https://github.com/mulled. Container availability will vary by tool,
   # this option will only be used for job destinations with Docker or
   # Singularity enabled.
-  #enable_mulled_containers: true
+  enable_mulled_containers: true
   
 
   # Container resolvers configuration. Set up a file describing
